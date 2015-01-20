@@ -61,9 +61,11 @@ textarea {
    Author's custom styles
    ========================================================================== */
 header {
-    background-image: url( put url here)
+    background-image: url(https://fbcdn-sphotos-g-a.akamaihd.net/hphotos-ak-xaf1/v/t1.0-9/381381_10150524188720781_908075091_n.jpg?oh=27365d937352765489e91e22066c3401&oe=5566D9D9&__gda__=1429212938_5f6509336e7684b35a369195a3bbd7ee);
+    background-size: cover;
     width: 100%;
-    height: ;
+    height: 20em;
+    
 }
 
 .page-container {
@@ -73,14 +75,20 @@ header {
 }
 
 .side-column {
+    width: 15em;
+    margin: 0 5%;
+}
 
+.my-name {
+    text-align: center;
 }
 
 .side-column > div > img {
     border-radius: 50%;
     border-color: white;
-    border-bottom-style: solid;
-    border-bottom-width: 1ex
+    border-style: solid;
+    border-width: 1ex;
+    margin-top: -10em;
 }
 
 form {
@@ -110,6 +118,7 @@ form {
 
 .main-column {
     display: inline-block;
+    position: absolute;
 }
 
 .blog-article {
