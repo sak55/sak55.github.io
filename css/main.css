@@ -119,9 +119,11 @@ form {
 .main-column {
     display: inline-block;
     position: absolute;
+
 }
 
 .blog-article {
+    list-style: none;
 }
 
 .article-title {
@@ -137,7 +139,7 @@ form {
 }
 
 .article-buttons {
-    
+    list-style: none;
 }
 
 .posting-date {
