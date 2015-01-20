@@ -71,6 +71,7 @@ header {
     position: relative;
     width: 80%;
     max-width: 1640px;
+    min-width: 35em;
     margin: 0 auto;
 }
 
@@ -205,11 +206,20 @@ form {
 
 footer {
     clear:both;
+    margin: 0 auto;
+    padding-left: 30%;
 }
 
+.footer-container {
+    width: 85%;
+    clear: both;
+}
 
-
-
+.bottom-picture {
+    border-radius: 50%;
+    position: absolute;
+    margin-left: -10em;
+}
 
 
 
