@@ -166,6 +166,7 @@ form {
 
 .blog-article {
     list-style: none;
+    border: gray 1px solid;
 }
 
 .article-title {
@@ -206,19 +207,25 @@ form {
 
 footer {
     clear:both;
-    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30em;
     padding-left: 30%;
+    position: relative;
+    display: inline;
 }
 
 .footer-container {
     width: 85%;
     clear: both;
+    font-size: 50%;
+    text-align: center;
 }
 
 .bottom-picture {
     border-radius: 50%;
     position: absolute;
-    margin-left: -10em;
+    left: 15em;
 }
 
 
