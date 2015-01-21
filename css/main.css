@@ -1,0 +1,382 @@
+/*! HTML5 Boilerplate v4.3.0 | MIT License | http://h5bp.com/ */
+
+html,
+button,
+input,
+select,
+textarea {
+    color: #222;
+}
+
+html {
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+audio,
+canvas,
+img,
+video {
+    vertical-align: middle;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.browsehappy {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+header {
+    background-image: url(https://fbcdn-sphotos-g-a.akamaihd.net/hphotos-ak-xaf1/v/t1.0-9/381381_10150524188720781_908075091_n.jpg?oh=27365d937352765489e91e22066c3401&oe=5566D9D9&__gda__=1429212938_5f6509336e7684b35a369195a3bbd7ee);
+    background-size: cover;
+    height: 40em;
+    
+}
+
+.page-container {
+    position: relative;
+    width: 80%;
+    max-width: 1640px;
+    min-width: 35em;
+    margin: 0 auto;
+}
+
+.side-column {
+    width: 20%;
+    float: left;
+}
+
+.my-name {
+    text-align: center;
+}
+
+.side-column > div > img {
+    border-radius: 50%;
+    border-color: white;
+    border-style: solid;
+    border-width: 1ex;
+    margin-top: -4em;
+    margin-left: 1em;
+}
+
+.page-link-box {
+    border-top: gray;
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-bottom: gray;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+}
+.page-link {
+    text-decoration: none;
+}
+
+form {
+    width:500px;
+    margin:50px auto;
+}
+
+.search-box {
+    margin-top: 5em;
+    border-top: gray;
+    border-top-style: solid;
+    border-top-width: 1px;
+}
+
+.search {
+    padding:8px 15px;
+    background:rgba(50, 50, 50, 0.2);
+    border:0px solid #dbdbdb;
+    
+}
+
+.social-media-button {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.button-nav {
+    text-align: center;
+    display: block;
+    position:absolute;
+}
+
+.button {
+    position:relative;
+    padding:4px 6px;
+    border:2px solid #207cca;
+    background-color:#207cca;
+    color:#fafafa;
+    text-decoration: none;
+    font-size: 100%;
+    text-align: center;
+}
+
+.button > 1 {
+    text-align: center;
+}
+
+.button:hover  {
+    background-color:#fafafa;
+    color:#207cca;
+}
+
+.main-column {
+    display: inline-block;
+    position: absolute;
+    width: 75%;
+    clear: both;
+    float:right;
+    margin-top: 3.5em;
+}
+
+.blog-article {
+    list-style: none;
+    border: gray 1px solid;
+    
+    
+}
+
+.article-title {
+    font-size: 150%;
+    padding: 0 1ex;
+}
+
+.article-text {
+    padding: 0 1em;
+}
+
+.article-footer {
+    
+}
+
+.article-buttons-nav {
+    background-color: gray;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.article-buttons {
+    display: inline;
+    text-decoration: none;
+    background-color: gray;
+    color: white;
+}
+    
+.article-buttons:hover {
+    display: inline;
+    text-decoration: none;
+    background-color: white;
+    color: gray;
+}
+
+.posting-date {
+    
+}
+
+footer {
+    clear:both;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30em;
+    padding-left: 30%;
+    position: relative;
+    display: inline;
+}
+
+.footer-container {
+    width: 100%;
+    clear: both;
+    font-size: 150%;
+    padding-left: 28%;
+}
+
+.bottom-picture {
+    border-radius: 50%;
+    position: absolute;
+    margin-left: -8em;
+}
+
+
+
+
+
+
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+@media only screen and (min-width: 35em) {
+
+}
+
+@media print,
+       (-o-min-device-pixel-ratio: 5/4),
+       (-webkit-min-device-pixel-ratio: 1.25),
+       (min-resolution: 120dpi) {
+
+}
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+.ir {
+    background-color: transparent;
+    border: 0;
+    overflow: hidden;
+    *text-indent: -9999px;
+}
+
+.ir:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 150%;
+}
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+/* ==========================================================================
+   Print styles
+   ========================================================================== */
+
+@media print {
+    * {
+        background: transparent !important;
+        color: #000 !important;
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    .ir a:after,
+    a[href^="javascript:"]:after,
+    a[href^="#"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group;
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    @page {
+        margin: 0.5cm;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
