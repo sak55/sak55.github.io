@@ -219,16 +219,16 @@ footer {
 }
 
 .footer-container {
-    width: 85%;
+    width: 100%;
     clear: both;
-    font-size: 50%;
-    text-align: center;
+    font-size: 150%;
+    padding-left: 28%;
 }
 
 .bottom-picture {
     border-radius: 50%;
     position: absolute;
-    left: 15em;
+    margin-left: -8em;
 }
 
 
