@@ -225,6 +225,11 @@ footer {
     padding-left: 28%;
 }
 
+. class= "footer-text" {
+    margin: 0 0;
+    text-decoration: none;
+}
+
 .bottom-picture {
     border-radius: 50%;
     position: absolute;
