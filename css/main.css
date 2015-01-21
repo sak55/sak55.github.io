@@ -167,14 +167,17 @@ form {
 .blog-article {
     list-style: none;
     border: gray 1px solid;
+    
+    
 }
 
 .article-title {
-    
+    font-size: 150%;
+    padding: 0 1ex;
 }
 
 .article-text {
-    
+    padding: 0 1em;
 }
 
 .article-footer {
