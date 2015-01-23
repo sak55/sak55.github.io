@@ -64,6 +64,7 @@ header {
     background-image: url(https://fbcdn-sphotos-g-a.akamaihd.net/hphotos-ak-xaf1/v/t1.0-9/381381_10150524188720781_908075091_n.jpg?oh=27365d937352765489e91e22066c3401&oe=5566D9D9&__gda__=1429212938_5f6509336e7684b35a369195a3bbd7ee);
     background-size: cover;
     height: 40em;
+    margin-top: -20em;
     
 }
 
@@ -73,6 +74,11 @@ header {
     max-width: 1640px;
     min-width: 35em;
     margin: 0 auto;
+}
+
+a {
+    color: #3B5177;
+    text-decoration: none;
 }
 
 .side-column {
@@ -157,18 +163,15 @@ form {
 
 .main-column {
     display: inline-block;
-    position: absolute;
-    width: 75%;
-    clear: both;
+    width: 70%%;
     float:right;
-    margin-top: 3.5em;
+    margin-top: 4em;
 }
 
 .blog-article {
     list-style: none;
     border: gray 1px solid;
-    
-    
+    position: relative;
 }
 
 .article-title {
@@ -202,38 +205,39 @@ form {
     text-decoration: none;
     background-color: white;
     color: gray;
+    
 }
 
 .posting-date {
-    
+    diplay: absolute;
+    float:right;
+    background-color: gray;
+    color: white;
+    margin-top: -1.4em;
 }
 
 footer {
     clear:both;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 30em;
-    padding-left: 30%;
-    position: relative;
-    display: inline;
+    float: bottom;
 }
 
 .footer-container {
-    width: 100%;
-    clear: both;
+    width: 80%;
     font-size: 150%;
-    padding-left: 28%;
+    margin: 10% 10% 0 30%;
 }
 
-. class= "footer-text" {
+.class= "footer-text" {
     margin: 0 0;
     text-decoration: none;
 }
 
 .bottom-picture {
     border-radius: 50%;
-    position: absolute;
-    margin-left: -8em;
+    margin-left: -10em;
+    bottom: 10em;
 }
 
 
