@@ -101,7 +101,13 @@ textarea {
 .container-fluid{
     background-color: #F9F9F9;
 }
+a {
+    
+}
 figure {
+}
+figure:hover{
+  opacity: 0.8;  
 }
 
 #top_bar {
@@ -114,6 +120,7 @@ figure {
 }
 img {
     width: 100%;
+    border-radius: 0.5vw;
 }
 figcaption {
     color: black;
