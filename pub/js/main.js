@@ -7,10 +7,12 @@ $(document).ready(function () {
             $( "#formBox" ).slideDown( "slow" );
         } else {
             $( "#formBox" ).hide();
-  }
+        }
     });
     
+    $("button").click(function(){
         
+    });
      
     
  
