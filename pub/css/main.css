@@ -98,10 +98,28 @@ textarea {
    ========================================================================== */
 
 
+.container-fluid{
+    background-color: #F9F9F9;
+}
+figure {
+}
 
-
-
-
+#top_bar {
+    height: 2vw;
+    width: 100%
+    position: fixed;
+    top: 0;
+    background-color: #EFEFEF;
+    border: solid 1px black;
+}
+img {
+    width: 100%;
+}
+figcaption {
+    color: black;
+    text-align: center;
+    font-family: cursive;
+}
 
 
 
