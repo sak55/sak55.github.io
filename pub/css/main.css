@@ -108,12 +108,26 @@ li {
 .socialmedia {
     float: right;
     padding-top: 0.5em;
-    font-size: 1vw;
+    font-size: 1em;
 }
 
 .lowerlink {
     padding-top: 0.5em;
+    padding-left: 0;
     font-size: 1vw;
+}
+
+figure {
+    @-webkit-animation: Figure_Fly;
+    @-webkit-animation-delay: 1s;
+    @-webkit-animation-duration 1s;
+}
+
+@-webkit-keyframes {
+    from {
+        margin-left: -100%;
+    }
+    to {}
 }
 
 figure:hover {
@@ -136,7 +150,7 @@ figure:hover > a {
 }
 
 #bottom_bar {
-    height: 3vw;
+    height: 3em;
     width: 100% position: fixed;
     bottom: 0;
     background-color: #EFEFEF;
@@ -194,13 +208,13 @@ a:hover {
     width: 100%;
 }
 
-button {
+#formbox button {
     border-radius: 0.5vw;
     background-color: #3499DB;
     margin-left: 43%;
 }
 
-button:hover {
+#formbox button:hover {
     background-color: #B9A258;
 }
 /* ==========================================================================
