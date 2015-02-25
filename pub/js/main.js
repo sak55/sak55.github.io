@@ -1,19 +1,19 @@
-
 $(document).ready(function () {
-   
-    
-    $('#contact').click(function() {
-       if ( $( "#formBox" ).is( ":hidden" ) ) {
-            $( "#formBox" ).slideDown( "slow" );
+
+    $("#formBox").hide();
+
+    $('#contact').click(function () {
+        if ($("#formBox").is(":hidden")) {
+            $("#formBox").slideDown("slow");
         } else {
-            $( "#formBox" ).hide();
+            $("#formBox").hide();
         }
     });
-    
-    $("button").click(function(){
-        
+
+    $("button").click(function () {
+
     });
-     
-    
- 
+
+
+
 });
