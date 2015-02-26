@@ -3,10 +3,10 @@ $(document).ready(function () {
     $("#formBox").hide();
     $(".container").hide();
 
-    $("#login").click(function () {
+    $("#loginBtn").click(function () {
         if ($(".container").is(":hidden")) {
+            $("#loginBox").slideUp("slow");
             $(".container").slideDown("slow");
-            $("#loginBox").hide();
         }
     });
 
@@ -14,11 +14,11 @@ $(document).ready(function () {
         if ($("#formBox").is(":hidden")) {
             $("#formBox").slideDown("slow");
         } else {
-            $("#formBox").hide();
+            $("#formBox").slideUp();
         }
     });
 
-    $("button").click(function () {
+    $("...").click(function () {
 
     });
 
