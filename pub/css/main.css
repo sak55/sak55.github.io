@@ -283,6 +283,17 @@ a:hover {
         margin-top: -10%;
     }
 }
+
+#jaws {
+    width: 10em;
+    position: absolute;
+}
+
+#jawsBox {
+    padding 40em;
+    border: solid black 2px;
+    margin: 20em 50%;
+}
 /* ==========================================================================
    Helper classes
    ========================================================================== */
