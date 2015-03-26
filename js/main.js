@@ -18,12 +18,12 @@ $(document).ready(function () {
         }
     });
 
-    $("#loginBox").mousemove(function (e) {
-        $('#jaws').css({
-            'top': e.clientY - 110,
-            'left': e.clientX - 100
-        });
-    });
+//    $("#loginBox").mousemove(function (e) {
+            //        $('#jaws').css({
+            //            'top': e.clientY - 110,
+            //            'left': e.clientX - 100
+            //        });
+            //    });
 
 
     $("...").click(function () {

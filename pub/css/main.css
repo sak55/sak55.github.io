@@ -1,12 +1,4 @@
 /*! HTML5 Boilerplate v4.3.0 | MIT License | http://h5bp.com/ */
-/*
- * What follows is the result of much research on cross-browser styling.
- * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
- * Kroc Camen, and the H5BP dev community and team.
- */
-/* ==========================================================================
-   Base styles: opinionated defaults
-   ========================================================================== */
 
 html,
 button,
@@ -20,11 +12,6 @@ html {
     font-size: 1em;
     line-height: 1.4;
 }
-/*
- * Remove text-shadow in selection highlight: h5bp.com/i
- * These selection rule sets have to be separate.
- * Customize the background color to match your design.
- */
 
 ::-moz-selection {
     background: #b3d4fc;
@@ -35,9 +22,6 @@ html {
     background: #b3d4fc;
     text-shadow: none;
 }
-/*
- * A better looking default horizontal rule
- */
 
 hr {
     display: block;
@@ -47,10 +31,6 @@ hr {
     margin: 1em 0;
     padding: 0;
 }
-/*
- * Remove the gap between images, videos, audio and canvas and the bottom of
- * their containers: h5bp.com/i/440
- */
 
 audio,
 canvas,
@@ -58,25 +38,16 @@ img,
 video {
     vertical-align: middle;
 }
-/*
- * Remove default fieldset styles.
- */
 
 fieldset {
     border: 0;
     margin: 0;
     padding: 0;
 }
-/*
- * Allow only vertical resizing of textareas.
- */
 
 textarea {
     resize: vertical;
 }
-/* ==========================================================================
-   Browse Happy prompt
-   ========================================================================== */
 
 .browsehappy {
     margin: 0.2em 0;
@@ -88,150 +59,213 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-.container-fluid {
-    background-color: #F9F9F9;
+header {
+    background-image: url(https://fbcdn-sphotos-g-a.akamaihd.net/hphotos-ak-xaf1/v/t1.0-9/381381_10150524188720781_908075091_n.jpg?oh=27365d937352765489e91e22066c3401&oe=5566D9D9&__gda__=1429212938_5f6509336e7684b35a369195a3bbd7ee);
+    background-size: cover;
+    height: 40em;
+    margin-top: -20em;
 }
 
-#Logo {
-    font-family: cursive;
-    float: left;
-    font-size: 2em;
-    padding: inherit;
-    color: #65A234;
-}
-
-ul {
-    padding-left: 0;
-}
-
-li {
-    display: inline-block;
-    padding: 0 2em;
-}
-
-.socialmedia {
-    float: right;
-    padding-top: 0.5em;
-    font-size: 1em;
-}
-
-.lowerlink {
-    padding-top: 0.5em;
-    padding-left: 0;
-    font-size: 1em;
-}
-/*
-figure {
-    @-webkit-animation: Figure_Fly;
-    @-webkit-animation-delay: 1s;
-    @-webkit-animation-duration 1s;
-}
-
-@-webkit-keyframes {
-    from {
-        margin-left: -100%;
-    }
-    to {}
-}
-*/
-
-figure:hover {
-    opacity: 0.3;
-    content: "Hello";
-    color: gray;
-}
-
-figure:hover > a {
-    color: green;
-    text-decoration: none;
-}
-
-#top_bar {
-    height: 5em;
-    width: 100% position: fixed;
-    top: 0;
-    background-color: #EFEFEF;
-    padding: 1em;
-}
-
-#bottom_bar {
-    height: 3em;
-    width: 100% position: fixed;
-    bottom: 0;
-    background-color: #EFEFEF;
-    text-align: center;
-}
-
-img {
-    width: 100%;
-    border-radius: 0.5vw;
-}
-
-pre {
-    color: black;
-    text-align: center;
-    font-family: cursive;
+.page-container {
+    position: relative;
+    width: 80%;
+    max-width: 1640px;
+    min-width: 35em;
+    margin: 0 auto;
 }
 
 a {
-    color: black;
-}
-
-a:hover {
-    color: gray;
+    color: #3B5177;
     text-decoration: none;
 }
 
-#formBox {
-    margin: 2em 30%;
+.side-column {
+    width: 20%;
+    float: left;
+}
+
+.my-name {
+    text-align: center;
+}
+
+.side-column > div > img {
+    border-radius: 50%;
+    border-color: white;
+    border-style: solid;
+    border-width: 1ex;
+    margin-top: -4em;
+    margin-left: 1em;
+}
+
+.page-link-box {
+    border-top: gray;
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-bottom: gray;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+}
+
+.page-link {
+    text-decoration: none;
+}
+
+form {
+    width: 500px;
+    margin: 50px auto;
+}
+
+.formbox {
     border: solid 2px black;
-    padding: 1em;
-    border-radius: 0.5vw;
-    background-color: #EFEFEF;
 }
 
-.formSpacing {
-    margin-bottom: .5ex;
+.search-box {
+    margin-top: 5em;
+    border-top: gray;
+    border-top-style: solid;
+    border-top-width: 1px;
 }
 
-#name {
-    width: 85%;
+.search {
+    padding: 8px 15px;
+    background: rgba(50, 50, 50, 0.2);
+    border: 0px solid #dbdbdb;
+}
+
+.social-media-button {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.button-nav {
+    text-align: center;
+    display: block;
+    position: absolute;
+}
+
+.button {
+    position: relative;
+    padding: 4px 6px;
+    border: 2px solid #207cca;
+    background-color: #207cca;
+    color: #fafafa;
+    text-decoration: none;
+    font-size: 100%;
+    text-align: center;
+}
+
+.button > 1 {
+    text-align: center;
+}
+
+.button:hover {
+    background-color: #fafafa;
+    color: #207cca;
+}
+
+.main-column {
+    display: inline-block;
+    width: 70%%;
     float: right;
+    margin-top: 4em;
 }
 
-#email {
-    width: 85%;
+.blog-article {
+    list-style: none;
+    border: gray 1px solid;
+    position: relative;
+}
+
+.article-title {
+    font-size: 150%;
+    padding: 0 1ex;
+}
+
+.article-text {
+    padding: 0 1em;
+}
+
+.article-footer {}
+
+.article-buttons-nav {
+    background-color: gray;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.article-buttons {
+    display: inline;
+    text-decoration: none;
+    background-color: gray;
+    color: white;
+}
+
+.article-buttons:hover {
+    display: inline;
+    text-decoration: none;
+    background-color: white;
+    color: gray;
+}
+
+.posting-date {
+    diplay: absolute;
     float: right;
+    background-color: gray;
+    color: white;
 }
 
-#subject {
-    width: 85%;
-    float: right;
+footer {
+    clear: both;
+    margin-left: auto;
+    margin-right: auto;
+    float: bottom;
+    background-color: gray;
+    color: white;
 }
 
-#msg {
-    width: 100%;
+.footer-container {
+    width: 80%;
+    font-size: 150%;
+    margin: 10% 10% 0 30%;
 }
 
-#formbox button {
-    border-radius: 0.5vw;
-    background-color: #3499DB;
-    margin-left: 43%;
+.footer-text {
+    margin: 0 0;
+    text-decoration: none;
 }
 
-#formbox button:hover {
-    background-color: #B9A258;
+.bottom-picture {
+    border-radius: 50%;
+    margin-left: -8em;
+    display: absolute;
+    margin-top: -16ex;
 }
 
-#loginBox {
-    width: 100%;
-    border: 2px solid gray;
-    height: 40em;
+.footer-social-media-button {
+    text-align: center;
+    margin: 0 auto;
 }
 
-#loginBtn {
-    border-radius: 0.5vw;
-    margin: 10% 40%;
+.footer-button-nav {
+    text-align: center;
+    display: block;
+    position: absolute;
+}
+
+.footer-button {
+    position: relative;
+    padding: 4px 6px;
+    border: 2px solid white;
+    background-color: gray;
+    color: white;
+    text-decoration: none;
+    font-size: 100%;
+    text-align: center;
+}
+
+.footer-button:hover {
+    background-color: #fafafa;
+    color: gray;
 }
 
 #shark {
@@ -243,18 +277,18 @@ a:hover {
     position: absolute;
     -webkit-animation-name: sharkbait;
     -webkit-animation-duration: 20s;
-    -webkit-animation-delay: 5s;
+    -webkit-animation-delay: 10s;
     -webkit-animation-iteration-count: infinite;
 }
 
 @-webkit-keyframes sharkbait {
     from {
         margin-left: 110%;
-        margin-top: -10%;
+        margin-top: 30%;
     }
     to {
         margin-left: -50%;
-        margin-top: 0%;
+        margin-top: 5%;
     }
 }
 
@@ -263,12 +297,12 @@ a:hover {
     background-size: cover;
     width: 30em;
     height: 10em;
-    margin-top: -20%;
+    margin-top: 30%;
     margin-left: -30%;
     position: absolute;
     -webkit-animation-name: sharkbait2;
-    -webkit-animation-duration: 30s;
-    -webkit-animation-delay: 10s;
+    -webkit-animation-duration: 20s;
+    -webkit-animation-delay: 15s;
     -webkit-animation-iteration-count: infinite;
     filter: blur(5px)
 }
@@ -276,37 +310,29 @@ a:hover {
 @-webkit-keyframes sharkbait2 {
     from {
         margin-left: -30%;
-        margin-top: -50%;
     }
     to {
         margin-left: 110%;
-        margin-top: -10%;
     }
 }
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
 
-#jaws {
-    width: 10em;
-    position: absolute;
-}
+@media only screen and (min-width: 35em) {}
 
-#jawsBox {
-    padding 40em;
-    border: solid black 2px;
-    margin: 20em 50%;
-}
+@media print,
+(-o-min-device-pixel-ratio: 5/4),
+(-webkit-min-device-pixel-ratio: 1.25),
+(min-resolution: 120dpi) {}
 /* ==========================================================================
    Helper classes
    ========================================================================== */
-/*
- * Image replacement
- */
 
 .ir {
     background-color: transparent;
     border: 0;
     overflow: hidden;
-    /* IE 6/7 fallback */
-    
     *text-indent: -9999px;
 }
 
@@ -316,17 +342,11 @@ a:hover {
     width: 0;
     height: 150%;
 }
-/*
- * Hide from both screenreaders and browsers: h5bp.com/u
- */
 
 .hidden {
     display: none !important;
     visibility: hidden;
 }
-/*
- * Hide only visually, but have it available for screenreaders: h5bp.com/v
- */
 
 .visuallyhidden {
     border: 0;
@@ -338,10 +358,6 @@ a:hover {
     position: absolute;
     width: 1px;
 }
-/*
- * Extends the .visuallyhidden class to allow the element to be focusable
- * when navigated to via the keyboard: h5bp.com/p
- */
 
 .visuallyhidden.focusable:active,
 .visuallyhidden.focusable:focus {
@@ -352,72 +368,32 @@ a:hover {
     position: static;
     width: auto;
 }
-/*
- * Hide visually and from screenreaders, but maintain layout
- */
 
 .invisible {
     visibility: hidden;
 }
-/*
- * Clearfix: contain floats
- *
- * For modern browsers
- * 1. The space content is one way to avoid an Opera bug when the
- *    `contenteditable` attribute is included anywhere else in the document.
- *    Otherwise it causes space to appear at the top and bottom of elements
- *    that receive the `clearfix` class.
- * 2. The use of `table` rather than `block` is only necessary if using
- *    `:before` to contain the top-margins of child elements.
- */
 
 .clearfix:before,
 .clearfix:after {
     content: " ";
-    /* 1 */
-    
     display: table;
-    /* 2 */
 }
 
 .clearfix:after {
     clear: both;
 }
-/*
- * For IE 6/7 only
- * Include this rule to trigger hasLayout and contain floats.
- */
 
 .clearfix {
     *zoom: 1;
 }
 /* ==========================================================================
-   EXAMPLE Media Queries for Responsive Design.
-   These examples override the primary ('mobile first') styles.
-   Modify as content requires.
-   ========================================================================== */
-
-@media only screen and (min-width: 35em) {
-    /* Style adjustments for viewports that meet the condition */
-}
-
-@media print,
-(-o-min-device-pixel-ratio: 5/4),
-(-webkit-min-device-pixel-ratio: 1.25),
-(min-resolution: 120dpi) {
-    /* Style adjustments for high resolution devices */
-}
-/* ==========================================================================
-   Print styles.
-   Inlined to avoid required HTTP connection: h5bp.com/r
+   Print styles
    ========================================================================== */
 
 @media print {
     * {
         background: transparent !important;
         color: #000 !important;
-        /* Black prints faster: h5bp.com/s */
-        
         box-shadow: none !important;
         text-shadow: none !important;
     }
@@ -431,10 +407,6 @@ a:hover {
     abbr[title]:after {
         content: " (" attr(title) ")";
     }
-    /*
-     * Don't show links for images, or javascript/internal links
-     */
-    
     .ir a:after,
     a[href^="javascript:"]:after,
     a[href^="#"]:after {
@@ -447,7 +419,6 @@ a:hover {
     }
     thead {
         display: table-header-group;
-        /* h5bp.com/t */
     }
     tr,
     img {
